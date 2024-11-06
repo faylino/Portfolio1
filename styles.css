@@ -1,4 +1,3 @@
-/* General Body */
 body {
     font-family: 'Inter', sans-serif; /* Modern font family similar to Josh W. Comeau's */
     background-color: #f5f7fa; /* Light, neutral background */
@@ -84,6 +83,7 @@ section {
     margin: 40px 0;
 }
 
+/* Section Headers */
 h2 {
     font-size: 3rem;
     font-weight: 700;
@@ -186,6 +186,22 @@ footer p {
     margin: 0;
 }
 
+/* Back to Home Button */
+.btn-home {
+    background-color: #2980b9;
+    padding: 12px 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+    margin-top: 40px;
+}
+
+.btn-home:hover {
+    background-color: #1abc9c;
+}
+
 /* Responsive Styles */
 @media (max-width: 768px) {
     section {
@@ -199,4 +215,33 @@ footer p {
     #home .intro-container p {
         font-size: 1.2rem;
     }
+
+    /* Adjust button size for smaller screens */
+    .btn, .btn-home {
+        font-size: 1rem;
+        padding: 10px 20px;
+    }
+
+/* Back to Home Button */
+.btn-home {
+    background-color: #2980b9;  /* Blue color matching the Home page gradient */
+    padding: 12px 25px;
+    color: white;
+    text-decoration: none;
+    border-radius: 30px;
+    font-size: 1.2rem;
+    transition: background-color 0.3s ease;
+    margin-top: 40px;
+    display: inline-block;
+    text-align: center;
+    width: 200px; /* Fixed width for consistency */
+    text-decoration: none;
+    margin-left: auto;
+    margin-right: auto; /* Centers the button horizontally */
+}
+
+
+.btn-home:hover {
+    background-color: #1abc9c; /* Lighter hover effect */
+}
 }
