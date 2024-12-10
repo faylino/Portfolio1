@@ -1,4 +1,3 @@
-
 // assets/js/scripts.js
 document.addEventListener('DOMContentLoaded', function () {
     // Load the default page (home)
